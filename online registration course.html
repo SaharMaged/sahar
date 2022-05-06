@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="stylee.css">
+</head>
+<body>
+    
+    
+    
+    
+    <div class="hero1">
+
+  <div class="form-box1">
+
+             <h1>E-LEARNING ACADEMY</h1>
+           <p>
+             we support you with free courses in programming field<br> 
+             if you want to ba a FRONT-END DEVELOPER , BACK-END DEVELOPER , DESKTOP APPLICATION DEVELOPER ,
+             IOS DEVELOPER , ANDROID DEVELOPER just register now.
+           </p>
+               <a href="registerstudentpage.html" target="_blank"><button type="submit" class="submit-btn">REGISTER NOW!</button></a>
+            
+    </div>
+
+    </div>
+
+      <div class="wrapper">
+      	<div class="menu">
+      		<nav>
+      			<ul>
+      				<li><a href="contactus.html" target="_blank">Contact Us</a></li>
+      				<li><a href="aboutus.html" target="_blank" >About Us</a></li>
+              
+      				<li><a href="#">Register</a>
+      					<ul>
+      						<li><a href="registerprofessorpage.html" target="_blank" > As A professor</a></li>
+      						<li><a href="registerstudentpage.html" target="_blank" > As A student</a></li>
+
+      					</ul>
+      				<li><a href="professorhome.html " target="_blank" >professors</a></li>	
+      					
+
+      				</li>
+      			</ul>
+
+      			<form class="search-form">
+      				<img class="img1" src="logo.png">
+     
+               </form>
+      		</nav>
+           </div>
+      </div>
+<div class="hero">
+
+  <div class="form-box">
+    <h1>Login</h1>
+     <img class="img" src="Login1.png">
+    <div class="button-box">
+      <div id="btn"></div>
+      <button type="button" class="toggle-btn" onclick="studentlogin()">Student Login</button>
+      <button type="button" class="toggle-btn" onclick="professorlogin()">Professor Login</button>
+
+    </div>
+    <form id="stud" class="input-group">
+      <br>
+      <input type="text" class="input-field" placeholder="username" required><br><br>
+      <input type="text" class="input-field" placeholder="enter password" required><br><br>
+      <input type="checkbox" class="check-box"><span>Remember password</span><br><br>
+      <button type="submit" class="submit-btn">login</button>
+    </form>
+    <form id="prof" class="input-group">
+      <br>
+      <input type="text" class="input-field" placeholder="username" required><br><br>
+      <input type="password" class="input-field" placeholder="enter password" required><br><br>
+      <input type="checkbox" class="check-box"><span>Remember password</span><br><br>
+      <button type="submit" class="submit-btn">login</button>
+    </form>
+    </div>
+
+    </div>
+   
+    
+  
+
+
+
+<script>
+  var x= document.getElementById("stud"); 
+  var y= document.getElementById("prof");
+  var z= document.getElementById("btn");
+
+  function professorlogin() {
+    x.style.left = "-400px";
+    y.style.left = "50px";
+    z.style.left = "145px";
+  }
+  function studentlogin() {
+    x.style.left = "50px";
+    y.style.left = "450px";
+    z.style.left = "0px";
+  }</script>
+
+
+</body>
+</html>

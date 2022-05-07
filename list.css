@@ -1,0 +1,85 @@
+/*rgba(51, 170, 51, .1)  
+rgba(51, 170, 51, .4)     
+rgba(51, 170, 51, .7)    
+rgba(51, 170, 51,  1) */
+
+
+
+body{
+	padding: 0;
+	margin: 0;
+	background: #98fb98;
+font-family: sans-serif;
+
+}
+
+
+.left{
+	float: left;
+	width: 45%;
+	height: 700px;
+	margin: 15px;
+
+	background-color: rgba(0,0,0,.395);
+	padding: 10px;
+	border-radius: 30px;
+
+}
+
+
+.right{
+	float: right;
+	width: 45%;
+	height: 700px;
+	margin: 15px;
+	background-color: rgba(0,0,0,.395);
+	padding: 10px;
+    border-radius: 30px;
+
+}
+
+ul{
+	position:absolute;
+	width: 400px;
+
+	 }
+ul li{
+	display: flex;
+	background: rgba(51, 170, 51, .1);
+	padding: 10px 10px;
+	color: #fff;
+	margin: 5px 0;
+	transition: .5s;
+
+}
+
+ul li:nth-child(1){
+	background: rgba(51, 170, 51, .4);
+
+}
+ul li:nth-child(2){
+	background: rgba(51, 170, 51, .6);
+
+}
+ul li:nth-child(3){
+	background: rgba(51, 170, 51, .8);
+
+}
+
+ ul li span:nth-child(1){
+width: 50px;
+}
+
+ ul li span:nth-child(2){
+width: 200px;
+}
+
+ ul li span:nth-child(3){
+width: 150px;
+text-align: right;
+}
+/*
+ul li:hover{
+	transform: scale(1.06);
+	background: rgba(0,0,0,.395);
+}

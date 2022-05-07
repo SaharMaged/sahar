@@ -1,0 +1,166 @@
+h1{
+	padding-top: 15px;
+	color: white;
+
+}
+
+ .menu{
+	background: rgba(0,0,0,.595);
+}
+nav{
+	height: 60px;
+	display: block;
+	margin: -17px auto;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+nav a{	
+
+	display: block;
+	text-decoration: none;
+    font-family: sans-serif ;
+    letter-spacing: 0.5px ;
+	font-size: 13px;
+    color: white;
+    transition: background 0.3s;
+
+}
+nav a:hover{
+   color: black;
+    opacity: ;
+    font-size: 15px ; 
+    background: orange ;
+
+
+}
+
+nav ul{
+	list-style: none;
+
+
+}
+nav ul li{
+	float: right;
+	width: 140px;
+	height: 60px;
+	line-height: 60px;
+
+
+
+}
+
+nav ul ul li{
+	background: rgba(0,0,0,.595);
+	position: relative;
+	display: none;
+}
+
+nav ul li:hover ul li{
+	display: block;
+
+}
+
+ body {
+		background: #eee;
+        /* color: #444; */
+    }
+
+* {
+  box-sizing: border-box;
+}
+ form{
+  background: #fff;
+  padding: 40px;
+  width: 50%;
+  margin-left:29%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-radius: 20px;
+  /* box-sizing: border-box; */
+  height:auto;
+}
+
+h1{
+font-size: 35px;
+margin-left:100px;
+margin-bottom: 40px;
+}
+
+label{
+font-size: 25px;
+
+margin-bottom: 40px;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  /* border: 2px solid #34b3a0; */
+  /* outline: none; */
+}
+
+.userinput{
+
+ padding: 0;
+ margin-top: 15px;
+ margin-left: 150px;
+margin-bottom: 10px; 
+}
+
+select{
+    padding:10px;
+    margin-left: 150px;
+    margin-top: 35px;
+   
+}
+.city{
+ background-color: #E8EFF2;
+  color: black;
+  padding: 5px ;
+  margin: 20px 10;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  height: 30px;
+  width: 30%;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px ;
+  margin: 8px 0;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+	 

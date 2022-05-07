@@ -1,0 +1,296 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+
+}
+.img1{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -10px;
+    left: calc(13% - 50px);
+    margin-left: -70px;
+ }
+
+.wrapper{
+	min-height: 100%;
+	width: 100%;
+	position: relative;
+		
+
+
+}
+
+body{
+	height: 100;
+    animation: animate 30s ease-in-out infinite;
+	
+    background-size: cover;
+	
+
+
+}
+@keyframes animate{
+                  0%{
+                    background-image: url(img11.jpg);
+                 }
+                  25%{
+                    background-image: url(img12.jpg);
+                 }
+                  50%{
+                    background-image: url(img13.jpg);
+                 }
+                  75%{
+                    background-image: url(img14.jpg);
+                 }
+                  100%{
+                    background-image: url(img15.jpg);
+                 }
+
+}
+.menu{
+	background: rgba(0,0,0,.595);
+}
+nav{
+	height: 60px;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+nav a{	
+
+	display: block;
+	text-decoration: none;
+    font-family: sans-serif ;
+    letter-spacing: 0.5px ;
+	font-size: 13px;
+    color: white;
+    transition: background 0.3s;
+
+}
+nav a:hover{
+   color: black;
+    opacity: ;
+    font-size: 15px ; 
+    background: orange ;
+
+
+}
+
+nav ul{
+	list-style: none;
+
+
+}
+nav ul li{
+	float: right;
+	width: 140px;
+	height: 55px;
+	line-height: 55px;
+
+
+
+}
+
+nav ul ul li{
+	background: rgba(0,0,0,.595);
+	position: relative;
+	display: none;
+}
+
+nav ul li:hover ul li{
+	display: block;
+
+}
+/*
+.search-form{
+    margin-top: 15px ;
+    float: left; ;
+    margin-right:  2000000px;
+}
+.menu .search-form #sam{
+    padding: 7px;
+    border: none ;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.menu .search-form #dam{
+    float: left; ;
+    background: orange;
+    color: white ;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 16px;
+}
+*/
+
+
+
+
+.hero h1{
+    color: #fff;
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+      
+}
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: calc(53% - 50px);
+ }
+
+
+.form-box{
+     position: absolute;
+    top: 50%;
+    left:80%;
+    bottom: -7%;
+    transform: translate(-250%,-50%);
+    width: 450px;
+    height: 450px;
+   padding: 85px ;
+    background: rgba(0,0,0,.8) ;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5); 
+    border-radius: 80px ;
+    overflow: hidden;
+}
+.button-box{
+    width: 300px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    font-size: 13px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border:0;
+    outline: none;
+    position: relative;
+
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 155px;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+
+}
+
+.input-field{
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;  
+    cursor: pointer;
+}
+
+.submit-btn{
+
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border:0;
+    outline: none;border-radius: 30px;
+    text-decoration: none;
+
+
+}
+
+
+
+
+
+span{
+    color: white;
+}
+
+
+
+
+.form-box1{
+     position: absolute;
+    top: 60%;
+    left:80%;
+   /* bottom: -7%;*/
+    transform: translate(-70%,-50%);
+    width: 650px;
+    height: 550px;
+    padding: 30px ;
+    background: rgba(0,0,0,.8) ;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,5); 
+   border-radius: 40px ;
+    overflow: hidden;
+    letter-spacing: 2px;
+
+}
+
+.hero1 h1{
+        color: white;
+
+
+}
+
+.hero1 .form-box1 a{
+
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border:0;
+    outline: none;border-radius: 30px;
+    text-decoration: none;
+
+
+}
+
+p{
+    padding: 20px;
+    color: white;
+}
